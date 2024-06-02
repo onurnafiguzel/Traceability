@@ -3,9 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console.Application", "Console.Application", "{B40D7345-9634-4E96-9F95-A56458AC9130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.Application", "Console.Application\Console.Application\Console.Application.csproj", "{1444E437-8645-4766-9734-2B3B26CB6D85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F4FACEE-A053-4F64-B747-617F97B21F75}"
+	ProjectSection(SolutionItems) = preProject
+		traceability.sql = traceability.sql
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1444E437-8645-4766-9734-2B3B26CB6D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1444E437-8645-4766-9734-2B3B26CB6D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1444E437-8645-4766-9734-2B3B26CB6D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1444E437-8645-4766-9734-2B3B26CB6D85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1444E437-8645-4766-9734-2B3B26CB6D85} = {B40D7345-9634-4E96-9F95-A56458AC9130}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01455067-C7C6-4225-A4B6-87945C555676}
