@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		traceability.sql = traceability.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCore.Application", "AspNetCore.Application", "{E096059A-75A8-4C6F-87B8-A62DB99C3EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Application", "AspNetCore.Application\AspNetCore.Application\AspNetCore.Application.csproj", "{FDADD2DB-8B7D-492D-9D19-1EE78115CB38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +26,17 @@ Global
 		{1444E437-8645-4766-9734-2B3B26CB6D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1444E437-8645-4766-9734-2B3B26CB6D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1444E437-8645-4766-9734-2B3B26CB6D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDADD2DB-8B7D-492D-9D19-1EE78115CB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDADD2DB-8B7D-492D-9D19-1EE78115CB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDADD2DB-8B7D-492D-9D19-1EE78115CB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDADD2DB-8B7D-492D-9D19-1EE78115CB38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1444E437-8645-4766-9734-2B3B26CB6D85} = {B40D7345-9634-4E96-9F95-A56458AC9130}
+		{FDADD2DB-8B7D-492D-9D19-1EE78115CB38} = {E096059A-75A8-4C6F-87B8-A62DB99C3EBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01455067-C7C6-4225-A4B6-87945C555676}
